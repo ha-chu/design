@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Playfair+Display:wght@600&display=swap');
 
 html {
-    background-color: #FDFAF4;
+    background-color: #0E022F;
 }
 
 h1 {
@@ -11,7 +11,7 @@ h1 {
     font-family: 'Playfair Display', serif;
     line-height: 1;
     margin: 0 0 0.75em 0;
-    color: #083102;
+    color: #DDD2F5;
 }
 
 h2 {
@@ -19,7 +19,7 @@ h2 {
     font-family: 'Playfair Display', serif;
     line-height: 1.5em;
     margin: 0 0 0.75em 0;
-    color: #083102;
+    color: #DDD2F5;
 }
 
 ul {
@@ -27,27 +27,27 @@ ul {
     font-family: 'Noto Sans', sans-serif;
     line-height: 1.5em;
     margin: 0 0 1.5em 0;
-    color: #083102;
+    color: #DDD2F5;
 }
 
 p {
     font-size: 1em;
     font-family: 'Noto Sans', sans-serif;
-    line-height: 1em;
+    line-height: 2em;
     margin: 0 0 1.5em 0;
-    color: #083102;
+    color: #DDD2F5;
 }
 
 a {
     font-size: 1em;
     font-family: 'Noto Sans', sans-serif;
-    font-weight: bold;
     line-height: 1em;
     margin: 0 0 1.5em 0;
-    color: #083102;
+    color: #DDD2F5;
+    text-underline-offset: 0.2em;
 }
 
 a:hover {
-    background-color: #BCCBBA;
+    color: #FCA0BC;
     transition: 0.2s;
 }
