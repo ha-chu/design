@@ -4,6 +4,7 @@
 
 html {
     background-color: #0E022F;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -50,4 +51,16 @@ a {
 a:hover {
     color: #FCA0BC;
     transition: 0.2s;
+}
+
+.header {
+    width: fit-content;
+    height: fit-content;
+    padding: 100px 15% 30px;
+}
+
+.standard {
+    width: fit-content;
+    height: fit-content;
+    padding: 30px 15% 30px;
 }
