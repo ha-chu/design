@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Playfair+Display:wght@600&display=swap');
 
 html {
-    background-color: #0E022F;
+    background-color: #FFF;
     box-sizing: border-box;
 }
 
@@ -12,7 +12,7 @@ h1 {
     font-family: 'Playfair Display', serif;
     line-height: 1;
     margin: 0 0 0.75em 0;
-    color: #DDD2F5;
+    color: #000;
 }
 
 h2 {
@@ -20,7 +20,7 @@ h2 {
     font-family: 'Playfair Display', serif;
     line-height: 1.5em;
     margin: 0 0 0.75em 0;
-    color: #DDD2F5;
+    color: #000;
 }
 
 h3 {
@@ -29,7 +29,7 @@ h3 {
     line-height: 1.5em;
     margin: 2%;
     text-align: center;
-    color: #DDD2F5;
+    color: #000;
 }
 
 ul {
@@ -37,7 +37,7 @@ ul {
     font-family: 'Noto Sans', sans-serif;
     line-height: 1.5em;
     margin: 0 0 1.5em 0;
-    color: #DDD2F5;
+    color: #000;
 }
 
 p {
@@ -45,7 +45,7 @@ p {
     font-family: 'Noto Sans', sans-serif;
     line-height: 2em;
     margin: 0 0 1.5em 0;
-    color: #DDD2F5;
+    color: #000;
 }
 
 a {
@@ -53,13 +53,14 @@ a {
     font-family: 'Noto Sans', sans-serif;
     line-height: 1em;
     margin: 0 0 1.5em 0;
-    color: #DDD2F5;
+    color: #000;
     text-underline-offset: 0.2em;
 }
 
 a:hover {
-    color: #FCA0BC;
-    transition: 0.2s;
+    font-weight: bold;
+    color: #4E0FD6;
+    transition: 0.3s;
 }
 
 .header {
@@ -92,4 +93,5 @@ a:hover {
     margin-top: 3%;
     vertical-align: middle;
     width: 100%;
+    border-width: 0.2em;
 }
