@@ -47,9 +47,11 @@ h3 {
 ul {
     font-size: 1em;
     font-family: 'Noto Sans', sans-serif;
-    line-height: 1.5em;
+    line-height: 1.875em;
     margin: 0 0 1.5em 0;
     color: #000;
+    list-style-type: none;
+    padding: 0;
 }
 
 p {
@@ -80,13 +82,13 @@ a:hover {
 .header {
     width: fit-content;
     height: fit-content;
-    padding: 30px 15% 20px;
+    padding: 30px 15% 15px;
 }
 
 .standard {
     width: fit-content;
     height: fit-content;
-    padding: 20px 15% 20px;
+    padding: 15px 15% 15px;
 }
 
 .inner {
