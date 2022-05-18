@@ -82,13 +82,13 @@ a:hover {
 .header {
     width: fit-content;
     height: fit-content;
-    padding: 30px 15% 15px;
+    padding: 30px 15% 10px;
 }
 
 .standard {
     width: fit-content;
     height: fit-content;
-    padding: 15px 15% 15px;
+    padding: 10px 15% 10px;
 }
 
 .inner {
