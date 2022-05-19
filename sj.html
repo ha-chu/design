@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Hannah Chu</title>
+        <link rel="icon" type="image/png" href="images/avatar.png"/>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="main.css"/>
+    </head>
+    <body>
+        <!-- back -->
+        <div class="back">
+                <a href="index.html">Back to homepage</a>
+        </div>
+        <!--- main -->
+        <div class="text">
+            <h1 id="case">Designing a Scalable Web Portal @ <a id="title" href="https://motisanjose.org" target="_blank">San José Mayor's Office of Tech and Innovation</a></h1>
+            <p>Updated May 18, 2022</p>
+            <br><br>
+
+            <h2>Overview</h2>
+            <p>In 2018, California passed Senate Bill 1421, which mandated that police departments in the state make officer misconduct records available to the public when requested. As a group of 3 engineers, 1 designer, 1 legal, and 1 project manager, my team aimed to design and build a web portal where the San José Police Department (SJPD) could publish relevant records in a timely and accessible manner.</p>
+            <p>The sole designer on team, I was responsible for everything from helping define the product features to championing accessible design to creating a style guide. Here, I’ll focus on one particular consideration I kept in mind throughout my 10 weeks at San José: designing for scalability.</p>
+            <br><br>
+
+            <h2>Problem</h2>
+            <p>While the SJPD only had a limited amount of files ready for publication at the time of my fellowship, we knew that they were preparing many more documents for public release in due time. How could we make sure the web portal was scalable and ready to accommodate a two-fold or four-fold increase in the amount of files ready for publication on the site?</p>
+            <br><br>
+
+            <h2>Part 1: Build from Atomic Components</h2>
+            <p>Scalability, to me, meant that I needed to consider how any component I used in my design would look if there were to be 20, 40, or even 100+ more of them. Could my designs scale cleanly, consistently, and appealingly (on a visual basis)? I decided my best bet was to create atomic components, then build from there.</p>
+            <p>This applied, for example, for these 2 elements: the search window and the file drawers.</p>
+            <p>For the search window, I needed to consider what would happen if the SJPD started using more file types or expanded their categorizations of types of misconduct. List-form checkboxes wouldn’t scale well; I decided on tags, which tend to be a flexible building block, instead.</p>
+            <!--- image -->
+            <p>The tags components also proved helpful later when I began building the cards for individual police cases.</p>
+            <!--- image -->
+            <p>For the files of a case, I used collapsable “drawer” components that could easily be stacked. Each drawer would contain all files of a certain type (one drawer would house all Computer Aided Dispatch files, one drawer would house all Versadex files...). This way, if the police department ever 1) uncovered more documents in a case, or 2) started keeping new types of files, the portal’s design would scale smoothly to accomodate.</p>
+            <p>A less scalable alternative, which was quickly discarded, would have been to simply present the user with a list of individual links to each file.</p>
+            <!--- image -->
+            <br><br>
+
+            <h2>Part 2: Build a Design System, Early</h2>
+            <p>As I started using atomic components like the ones shown above, I quickly realized I would need to create a design system to house them all. This way, I could scale my design process with more ease and efficiency.</p>
+            <!--- image -->
+            <p>I built my first version of a design system at the earliest wireframing stage of my process, while I was working on low- to mid-fidelity wireframes. Later, as I moved to high-fidelity, I continued to expand and modify my system as components were refined and (eventually) color styles were defined.</p>
+            <!--- image -->
+            <p>Nearly a year after having worked on this project, I’m still trying to figure out the best way to organize components into a clean system. But regardless of my level of satisfaction with my design system in the end, it really did prove helpful to have started building one early.</p>
+            <br><br>
+
+            <h2>Conclusion</h2>
+            <p>My team wasn’t able to finish building the web portal in 10 weeks, though a few of my engineering teammates later stayed with the Mayor's Office of Technology and Innovation to continue improving the site.</p>
+            <p>It was a difficult but rewarding challenge, trying to manage the design side of our project from end to end. I wasn’t totally happy with many aspects of my work at the end of my fellowship—from the visual design to my unstructured approach to research—but it taught me a whole lot and gave me the chance to meet many amazing civic technologists and tech policy enthusiasts.</p>
+            <!--- image -->
+            <br/><a href="index.html">Back to homepage</a><br/><br/>
+        </div>
+    </body>
+    <footer id="footer">
+        <div class="inner">
+            <h3>hannah chu  ©  2022</h3>
+        </div>
+    </footer>
+</html>

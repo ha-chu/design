@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Playfair+Display:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Playfair+Display:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Playfair+Display:wght@700&display=swap');
 
 html {
     background-color: #FFF;
@@ -19,10 +20,32 @@ html {
     padding: 50px 15% 20px;
 }
 
+#title {
+    font-size: 1em;
+    font-family: 'Playfair Display', serif;
+    line-height: 1em;
+    margin: 0 0 1.5em 0;
+    color: #000;
+    text-underline-offset: 0.2em;
+}
+
+#title:hover{
+    color: #585858;
+    transition: 0.15s;
+}
+
+#case {
+    font-size: 2.25em;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.5em;
+    margin: 0 0 0.75em 0;
+    color: #000;
+}
+
 h1 {
     font-size: 2.25em;
     font-family: 'Playfair Display', serif;
-    line-height: 1;
+    line-height: 1em;
     margin: 0 0 0.75em 0;
     color: #000;
 }
