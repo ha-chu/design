@@ -15,45 +15,51 @@
         <!--- main -->
         <div class="text">
             <h1 id="case">Transforming iiDecide's Onboarding @ <a id="title" href="https://novaforgood.org" target="_blank">Nova for Good</a></h1>
-            <p>Updated May 18, 2022</p>
+            <p>Updated May 25, 2022</p>
             <br><br>
 
             <h2>Overview</h2>
-            <p>iiDecide is an app that anonymously connects survivors of sexual assault with other survivors who have had the same perpetrator as them. An initial team of 2 (later, 5) designers and 5 engineers, we worked on an alpha version of the app from Oct. 2020 to Oct. 2021. My design lead and I conducted usability testing interviews in Nov. 2021, and the team has since been working on a beta version based on user feedback.</p>
-            <p>Below, you’ll read about my work in the winter of 2022 on a sub-feature of iiDecide: user onboarding.</p>
+            <p>iiDecide is an app that anonymously connects survivors of sexual assault with other survivors who had the same perpetrator as them. A starting team of 2 (later, 5) designers and 5 engineers, we worked on an alpha version of the app from Oct. 2020 to Oct. 2021. My design lead and I conducted usability testing interviews in Nov. 2021, and the team has since been working on a new beta version of the app, making changes based on user feedback.</p>
+            <p>Below, you’ll read about my work in the winter of 2022 on one sub-feature of iiDecide: user onboarding.</p>
             <br><br>
 
             <h2>Problem</h2>
-            <p>In our usability testing interviews, we had users do a narrated walk-through of our app. We encountered the same problem with a few users—they didn’t understand what they were supposed to do on the Matches screen. While the basic function of Matches is to help users manage other users our algorithm matched them with, we realized we had tried to pack in too many actions without enough guidance: opening a chat with a user, deleting a match, confirming a match’s accuracy...</p>
-            <!--- image -->
-            <p>We saw 2 main problem spots in our design: 1) Matches was too busy and chaotic, and 2) we did a poor job onboarding our users.</p>
-            <p>I took charge of problem 2). What was the issue with our current user onboarding and how could I make it better?</p>
+            <p>In our usability testing interviews, we had users do a narrated walk-through of our app. In multiple sessions, we encountered the same problem—users didn’t understand what they were supposed to do on the Matches screen. The basic function of Matches is to let users see the list of other users that our algorithm has matched them with, but we had tried to pack in too many additional actions without giving guidance on how to use them: opening a chat with another user, deleting a match, confirming a match’s accuracy...</p>
+            <img src="images/iidecidefirst.png" width="600">
+            <br><br><br>
+            <p>We identified 2 main problems in our design: 1) The Matches feature itself was too busy and chaotic (and needed to be rehauled), and 2) we did a poor job onboarding our users.</p>
+            <p>I took charge of problem 2). What was the issue with our current user onboarding and how could I better guide users through iiDecide's features?</p>
             <br><br>
 
             <h2>Step 1: Onboarding Audit</h2>
-            <p>First, I audited our current onboarding. The main problem, in my opinion, was this: Our onboarding was so barebones and ill-placed in the app’s flow that it didn’t feel relevant or worth paying attention to.</p>
-            <!--- image -->
-            <p>We had placed a few carousel slides at the beginning of the flow, before a user entered the app; they wouldn’t know what the features we were referring to even looked like.</p>
+            <p>First, I audited our current onboarding. The main problem, in my opinion, was this: Our onboarding was so barebones and ill-placed in the app’s flow that, for users, it didn’t feel relevant or worth paying much attention to.</p>
+            <img src="images/iidecidesecond.png" width="600">
+            <br><br><br>
+            <p>We had placed a few, high-level-explanation carousel slides at the very beginning of the flow, before a user entered the app; they wouldn’t know what the features we were referring to even looked like yet.</p>
             <br><br>
 
             <h2>Step 2: Research & Picking a New System</h2>
-            <p>After surveying various models of onboarding online, I suggested to my team that we try “sequenced onboarding.” In other words, we wouldn’t just have a few carousel slides at the beginning of the flow; onboarding would be broken up into 4 or 5 sections that appeared at different points in the user flow.</p>
-            <!--- image -->
-            <p>This new model would allow us to better support the user and provide more detailed guidance of how a feature worked, minimizing the copy we previously had to include on certain screens (because onboarding hadn’t explained well enough how things worked).</p>
+            <p>After surveying various models of onboarding in other apps online, I suggested to my team that we try “sequenced onboarding.” In other words, we wouldn’t just have a few carousel slides at the beginning of the flow; onboarding would be broken up into 4 or 5 separate sections that appeared at different checkpoints within the app.</p>
+            <img src="images/iidecidethird.png" width="600">
+            <br><br><br>
+            <p>This new model would allow us to better support the user and provide more detailed instructions for how a specific feature worked, minimizing the copy we previously had to include on certain in-feature screens (because onboarding hadn’t explained things well enough).</p>
             <p>With the help of my teammates, I worked out 5 distinct onboarding sections: General/Login, User Profile, Reports, Matches, and Match Confirmation.</p>
             <br><br>
 
             <h2>Step 3: Designing "Cross-Modal" UI</h2>
-            <p>Throughout my sketching and wireframing process, I realized that some sections of onboarding would only need a higher-level overview, while others would need much more detailed guides (Matches, for instance). I decided I would adapt the style or modality of each section to the needs of the feature being onboarded.</p>
-            <!--- image -->
-            <p>My work on onboarding came at a time when we were also reconsidering our UI style, so I was given the freedom to play around with the design system. For User Profile onboarding, my teammate suggested I simply walk the user through filling out their profile; for Reports and Match Confirmation (which required only higher-level onboarding), I revamped sheet modals from our design system; for Matches (which was a more complex feature), I tried a few versions of a guided walkthrough.</p>
-            <!--- image -->
+            <p>Throughout my sketching and wireframing process, I realized that some sections of onboarding would only need a higher-level overview (Reports, for example), while others would need much more detailed guides (Matches, for instance). I decided I would adapt the style or modality of each onboarding section to the needs of the feature being onboarded.</p>
+            <img src="images/iidecidefourth.png" width="600">
+            <br><br><br>
+            <p>My work on onboarding came at a time when we were also reworking our design system and UI style, so I was given the freedom to play around with the components and visual design. For User Profile onboarding, my teammate suggested I simply walk the user through filling out their profile; for Reports and Match Confirmation (which required only higher-level onboarding), I revamped sheet modals from our design system; for Matches (which was a more complex feature), I tried a few versions of a guided walkthrough.</p>
+            <img src="images/iidecidefifth.png" width="600">
+            <br><br>
             <br><br>
 
             <h2>Conclusion</h2>
-            <p>Since the time of writing, I’ve continued to interate on my wireframes with help from my teammates. Two of them have also worked on redesigning Matches and rethinking its overall functionality and how it fits into the broader user flow. Some of my work, then, will surely change again going forward.</p>
-            <p>In the meantime, I’m taking a slight break from working on onboarding to complete other post-usability testing tasks (as we prepare for beta testing!). Here’s a quick look at one them, a redesign of iiDecide user profiles (on the left, see old designs—on the right, see new):</p>
-            <!--- image -->
+            <p>Since the time of writing, I’ve continued to iterate on my wireframes with help from my teammates. Two of them have also worked on redesigning Matches and rethinking its overall functionality, as well as how it fits into the broader user flow. Some of my work, then, will surely change again going forward.</p>
+            <p>In the meantime, I’m taking a slight break from working on onboarding to complete other post-usability testing tasks (as we prepare for beta testing!). Here’s a quick look at one of them, a redesign of iiDecide user profiles (on the left, see old design—on the right, see new):</p>
+            <img src="images/iidecidesixth.png" width="600">
+            <br><br><br>
             <br/><a href="index.html">Back to homepage</a><br/><br/>
         </div>
     </body>
