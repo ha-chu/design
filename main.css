@@ -57,7 +57,7 @@ h2 {
 
 h3 {
     font-size: 1em;
-    font-family: 'Domine', serif;
+    font-family: 'Nunito', sans-serif;
     line-height: 1.5em;
     margin: 1% 0 3%;
     text-align: center;
@@ -102,13 +102,13 @@ a:hover {
 .header {
     width: fit-content;
     height: fit-content;
-    padding: 30px 15% 10px;
+    padding: 30px 15% 1px;
 }
 
 .standard {
     width: fit-content;
     height: fit-content;
-    padding: 10px 15% 10px;
+    padding: 1px 15% 10px;
 }
 
 .inner {
