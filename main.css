@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Nunito:wght@400;700&display=swap');
+@-ms-viewport {
+    width: device-width; 
+}
 
 html {
     background-color: #FFF;
