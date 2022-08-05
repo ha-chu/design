@@ -11,14 +11,30 @@ html {
     padding: 50px 15% 10px;
 }
 
+@media screen and (max-width: 600px) {
+    #visualdesign {
+        width: fit-content;
+        height: fit-content;
+        padding: 50px 5% 10px;
+    }
+}
+
 #sketch {
     width: fit-content;
     height: fit-content;
     padding: 50px 15% 20px;
 }
 
+@media screen and (max-width: 600px) {
+    #sketch {
+        width: fit-content;
+        height: fit-content;
+        padding: 50px 5% 20px;
+    }
+}
+
 #title {
-    font-size: 1em;
+    font-size: 100%;
     font-family: 'Domine', serif;
     line-height: 1em;
     margin: 0 0 1.5em 0;
@@ -32,7 +48,7 @@ html {
 }
 
 #case {
-    font-size: 2.25em;
+    font-size: 225%;
     font-family: 'Domine', serif;
     line-height: 1.5em;
     margin: 0 0 0.75em 0;
@@ -40,7 +56,7 @@ html {
 }
 
 h1 {
-    font-size: 2.25em;
+    font-size: 225%;
     font-family: 'Domine', serif;
     line-height: 0.25em;
     margin: 0.5em 0 0.8em 0;
@@ -48,7 +64,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 150%;
     font-family: 'Domine', serif;
     line-height: 2em;
     margin: 0.5em 0 0.25em 0;
@@ -56,7 +72,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1em;
+    font-size: 150%;
     font-family: 'Nunito', sans-serif;
     line-height: 1.5em;
     margin: 1% 0 3%;
@@ -65,7 +81,7 @@ h3 {
 }
 
 ul {
-    font-size: 1.1em;
+    font-size: 110%;
     font-family: 'Nunito', sans-serif;
     line-height: 2em;
     margin: 0 0 1.5em 0;
@@ -75,7 +91,7 @@ ul {
 }
 
 p {
-    font-size: 1.1em;
+    font-size: 110%;
     font-family: 'Nunito', sans-serif;
     line-height: 2em;
     margin: 0 0 1.5em 0;
@@ -83,7 +99,7 @@ p {
 }
 
 a {
-    font-size: 1em;
+    font-size: 100%;
     font-family: 'Nunito', sans-serif;
     line-height: 1em;
     margin: 0 0 1.5em 0;
@@ -105,10 +121,26 @@ a:hover {
     padding: 30px 15% 1px;
 }
 
+@media screen and (max-width: 600px) {
+    .header {
+        width: fit-content;
+        height: fit-content;
+        padding: 30px 5% 1px;
+    }
+}
+
 .standard {
     width: fit-content;
     height: fit-content;
     padding: 1px 15% 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .standard {
+        width: fit-content;
+        height: fit-content;
+        padding: 1px 5% 10px;
+    }
 }
 
 .inner {
@@ -119,10 +151,29 @@ a:hover {
     padding: 50px 30% 0;
 }
 
+@media screen and (max-width: 600px) {
+    .text {
+        padding: 50px 5% 0;
+    }
+}
+
 .back {
     width: fit-content;
     height: fit-content;
     padding: 50px 30% 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .back {
+        width: fit-content;
+        height: fit-content;
+        padding: 50px 5% 10px;
+    }
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* gallery */
