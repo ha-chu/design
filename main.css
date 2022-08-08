@@ -41,7 +41,7 @@ html {
     font-family: 'Domine', serif;
     line-height: 1em;
     margin: 0 0 1.5em 0;
-    color: #000;
+    color: #383838;
     text-underline-offset: 0.2em;
 }
 
@@ -55,7 +55,7 @@ html {
     font-family: 'Domine', serif;
     line-height: 1.5em;
     margin: 0 0 0.75em 0;
-    color: #000;
+    color: #383838;
 }
 
 h1 {
@@ -63,7 +63,7 @@ h1 {
     font-family: 'Domine', serif;
     line-height: 0.25em;
     margin: 0.5em 0 0.8em 0;
-    color: #000;
+    color: #383838;
 }
 
 h2 {
@@ -71,7 +71,7 @@ h2 {
     font-family: 'Domine', serif;
     line-height: 2em;
     margin: 0.5em 0 0.25em 0;
-    color: #000;
+    color: #383838;
 }
 
 h3 {
@@ -80,7 +80,7 @@ h3 {
     line-height: 1.5em;
     margin: 1% 0 3%;
     text-align: center;
-    color: #000;
+    color: #383838;
 }
 
 ul {
@@ -88,7 +88,7 @@ ul {
     font-family: 'Nunito', sans-serif;
     line-height: 2em;
     margin: 0 0 1.5em 0;
-    color: #000;
+    color: #383838;
     list-style-type: none;
     padding: 0;
 }
@@ -98,7 +98,7 @@ p {
     font-family: 'Nunito', sans-serif;
     line-height: 2em;
     margin: 0 0 1.5em 0;
-    color: #000;
+    color: #383838;
 }
 
 a {
@@ -106,13 +106,13 @@ a {
     font-family: 'Nunito', sans-serif;
     line-height: 1em;
     margin: 0 0 1.5em 0;
-    color: #000;
+    color: #383838;
     text-underline-offset: 0.2em;
 }
 
 a:hover {
     font-weight: bold;
-    color: #000;
+    color: #383838;
     transition: 0.3s;
 }
 
