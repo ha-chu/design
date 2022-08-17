@@ -19,8 +19,18 @@
             <br>
 
             <h2>overview</h2>
-            <p>This is a repository of small design projects I started in the summer of 2022. Most have been done over a period of roughly 1 week or less, with the exception of style tiles (each of which has taken and is still taking me about 1-2 weeks or more). All were done in Figma unless otherwise stated.</p>
-            <p>The work you'll see below is strictly for fun and learning about areas of design I've (sometimes temporarily) become intensely curious about. If you're interested in seeing more "serious" UX and product design case studies, take a look at my work <a href="iidecide.html">revamping the onboarding experience of a mobile app</a> or <a href="sj.html">designing a city government web portal</a>.</p> 
+            <p>This is a collection of my mini-projects from the summer of 2022. Most have been done in roughly 1 week or less, and all were done in Figma unless otherwise stated.</p>
+            <p>The work below is strictly for fun and learning about areas of design I've (sometimes suddenly) become intensely curious about. If you want to see "serious" UX and product design case studies, take a look at my work <a href="iidecide.html">revamping the onboarding experience of a mobile app</a> or <a href="sj.html">designing a city government web portal</a>.</p> 
+            <br><br>
+
+            <h2>practicing atomic design</h2>
+            <p>OK, I'm sorry—this one isn't technically a mini-project. It was part of a task I did during my internship at <a href="https://postlight.com" target="_blank">Postlight</a>. But I took the opportunity to apply a principle I've been really interested in recently, so it felt appropriate to include.</p>
+            <p>Here was the problem: my team was designing a dashboard and using the same side navigation bar over and over. It was time to make it a component. I took note of where we required variability: collapsed vs. expanded versions; different icons for each nav link; background fill color for selected vs. unselected links.</p>
+            <p>What I could have done (and would have in the past), is create a component set with 8 variants: 4 of the side nav's expanded version, one for each state with a different nav link selected, and the same for the collapsed version. But this is essentially hard-coding the solution, and it'd be pretty tedious later on if, say, I wanted to change the icons.</p>
+            <p>Instead, I focused on making the atoms and molecules of the nav bar variable. The icons are variants of one component set; the links another; these are then nested within a high-level component set of the collapsed and expanded nav bar variants.</p>
+            <img src="images/atomic.webp"><br><br>
+            <img src="images/atomic.gif"><br><br>
+            <p>(Note: This was for a client project. I've changed content and all visual styling to keep the real work private.)</p>
             <br><br>
 
             <h2>playing with ui: style tile sandboxes</h2>
