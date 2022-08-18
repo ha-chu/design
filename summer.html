@@ -11,23 +11,23 @@
     <body>
         <!-- back -->
         <div class="back">
-            <a href="index.html">Back to homepage</a>
+            <a href="index.html">back to homepage</a>
         </div>
         <!--- main -->
         <div class="text">
             <h1 id="case">my summer of creative mini-projects</a></h1>
-            <br>
+            <br><br>
 
             <h2>overview</h2>
-            <p>This is a collection of my mini-projects from the summer of 2022. Most have been done in roughly 1 week or less, and all were done in Figma unless otherwise stated.</p>
+            <p>This is a collection of my mini-projects from the summer of 2022. Most have been done in roughly 1 week or less, and I used Figma for all unless otherwise stated.</p>
             <p>The work below is strictly for fun and learning about areas of design I've (sometimes suddenly) become intensely curious about. If you want to see "serious" UX and product design case studies, take a look at my work <a href="iidecide.html">revamping the onboarding experience of a mobile app</a> or <a href="sj.html">designing a city government web portal</a>.</p> 
             <br><br>
 
             <h2>practicing atomic design</h2>
-            <p>OK, I'm sorry—this one isn't technically a mini-project. It was part of a task I did during my internship at <a href="https://postlight.com" target="_blank">Postlight</a>. But I took the opportunity to apply a principle I've been really interested in recently, so it felt appropriate to include.</p>
-            <p>Here was the problem: my team was designing a dashboard and using the same side navigation bar over and over. It was time to make it a component. I took note of where we required variability: collapsed vs. expanded versions; different icons for each nav link; background fill color for selected vs. unselected links.</p>
+            <p>OK, this one isn't technically a mini-project—it was part of a task I did during my internship at <a href="https://postlight.com" target="_blank">Postlight</a>. But I took the opportunity to apply a <a href="https://atomicdesign.bradfrost.com/" target="_blank">design principle</a> I've been really interested in recently (and had a lot of fun), so I'm including it.</p>
+            <p>Here was the problem: my team was designing a dashboard and pasting the same side navigation bar over and over. It was time to make it a component. I took note of where we needed variability: collapsed vs. expanded versions; different icons for each nav link; background fill color for selected vs. unselected links.</p>
             <p>What I could have done (and would have in the past), is create a component set with 8 variants: 4 of the side nav's expanded version, one for each state with a different nav link selected, and the same for the collapsed version. But this is essentially hard-coding the solution, and it'd be pretty tedious later on if, say, I wanted to change the icons.</p>
-            <p>Instead, I focused on making the atoms and molecules of the nav bar variable. The icons are variants of one component set; the links another; these are then nested within a high-level component set of the collapsed and expanded nav bar variants.</p>
+            <p>Instead, I focused on making the nav bar's atomic and molecular blocks variable. The icons are variants of one component set; the links (icon + text + background) another; these are then nested within a high-level component set of the collapsed and expanded nav bar variants.</p>
             <img src="images/atomic.webp"><br><br>
             <img src="images/atomic.gif"><br><br>
             <p>(Note: This was for a client project. I've changed content and all visual styling to keep the real work private.)</p>
@@ -57,7 +57,7 @@
             <img src="images/blackletterfinal.webp">
             <br><br><br>
 
-            <br><a href="index.html">Back to homepage</a><br><br><br><br><br><br>
+            <br><a href="index.html">back to homepage</a><br><br><br><br><br><br>
         </div>
     </body>
 </html>

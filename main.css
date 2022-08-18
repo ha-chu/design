@@ -11,28 +11,28 @@ html {
 #visualdesign {
     width: fit-content;
     height: fit-content;
-    padding: 50px 15% 10px;
+    padding: 50px 15% 0px;
 }
 
 @media screen and (max-width: 600px) {
     #visualdesign {
         width: fit-content;
         height: fit-content;
-        padding: 50px 5% 10px;
+        padding: 50px 5% 0px;
     }
 }
 
 #sketch {
     width: fit-content;
     height: fit-content;
-    padding: 50px 15% 20px;
+    padding: 25px 15% 20px;
 }
 
 @media screen and (max-width: 600px) {
     #sketch {
         width: fit-content;
         height: fit-content;
-        padding: 50px 5% 20px;
+        padding: 25px 5% 20px;
     }
 }
 
@@ -54,7 +54,7 @@ html {
     font-size: 225%;
     font-family: 'Domine', serif;
     line-height: 1.3em;
-    margin: 0 0 0.75em 0;
+    margin: 0 0 0.6em 0;
     color: #383838;
 }
 
@@ -149,28 +149,28 @@ a:hover {
 .text {
     width: fit-content;
     height: fit-content;
-    padding: 50px 30% 0px;
+    padding: 25px 30% 0px;
 }
 
 @media screen and (max-width: 600px) {
     .text {
         width: fit-content;
         height: fit-content;
-        padding: 50px 5% 0px;
+        padding: 25px 5% 0px;
     }
 }
 
 .back {
     width: fit-content;
     height: fit-content;
-    padding: 50px 30% 10px;
+    padding: 50px 30% 0px;
 }
 
 @media screen and (max-width: 600px) {
     .back {
         width: fit-content;
         height: fit-content;
-        padding: 50px 5% 10px;
+        padding: 50px 5% 0px;
     }
 }
 
