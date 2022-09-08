@@ -9,7 +9,13 @@ html {
 }
 
 body {
-    margin-bottom: 64px;
+    margin-bottom: 32px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin-bottom: 80px;
+    }
 }
 
 #visualdesign {
