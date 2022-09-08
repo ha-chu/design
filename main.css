@@ -8,6 +8,10 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    margin-bottom: 64px;
+}
+
 #visualdesign {
     width: fit-content;
     height: fit-content;
@@ -79,6 +83,16 @@ h3 {
     font-family: 'Nunito', sans-serif;
     line-height: 1.5em;
     margin: 1% 0 3%;
+    text-align: center;
+    color: #383838;
+}
+
+h4 {
+    font-size: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 0em 0 -0.6em;
     text-align: center;
     color: #383838;
 }
@@ -171,6 +185,30 @@ a:hover {
         width: fit-content;
         height: fit-content;
         padding: 50px 5% 0px;
+    }
+}
+
+#construction {
+    background-color: #FFD7DB;
+    padding: 0.8em 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 600px) {
+    #construction {
+        background-color: #FFD7DB;
+        padding: 0.8em 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
     }
 }
 
