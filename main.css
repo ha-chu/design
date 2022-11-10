@@ -143,14 +143,14 @@ a:hover {
 .header {
     width: fit-content;
     height: fit-content;
-    padding: 160px 30% 24px 15%;
+    padding: 80px 30% 24px 15%;
 }
 
 @media screen and (max-width: 600px) {
     .header {
         width: fit-content;
         height: fit-content;
-        padding: 30px 5% 0;
+        padding: 15px 5% 0;
     }
 }
 
