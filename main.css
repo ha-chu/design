@@ -89,21 +89,21 @@ p {
 a {
     font-size: 100%;
     font-family: 'Jetbrains Mono';
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.6em;
     margin: 0 0 0.8em 0;
-    color: #181818;
-    text-decoration: none;
+    color: #757575;
+    text-underline-offset: 0.2em;
+    text-decoration-thickness: 6%;
 }
 
 a:hover {
     color: #181818;
-    text-decoration: underline;
-    text-underline-offset: 0.2em;
 }
 
 #heading {
     margin: 0 0 1.2em 0;
+    color: #181818;
 }
 
 /* type accessories */
