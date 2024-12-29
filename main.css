@@ -55,7 +55,13 @@ ul {
 
 #links {
     list-style-type: none;
+    line-height: 1.6em;
     padding: 0;
+}
+
+#work {
+    line-height: 1.6em;
+    padding: 0 0 0.8em 0;
 }
 
 ol {
