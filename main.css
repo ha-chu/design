@@ -53,6 +53,11 @@ ul {
     padding: 0 8%;
 }
 
+#links {
+    list-style-type: none;
+    padding: 0;
+}
+
 ol {
     font-size: 104%;
     font-family: 'Jetbrains Mono';
@@ -70,7 +75,7 @@ ol {
     margin: 0 0 1.6em 0;
     color: #181818;
     list-style-type: disc;
-    margin: 0 8%;
+    margin: 0 4%;
 }
 
 p {
@@ -130,7 +135,7 @@ blockquote {
     font-size: 100%;
     font-family: 'Jetbrains Mono';
     line-height: 1.6em;
-    margin: 0 4% 1.6em 4%;
+    margin: 0 4% 1.2em 4%;
     color: #181818;
 }
 
