@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Hannah Chu</title>
+        <link rel="icon" type="image/png" href="images/visual/avatar.webp"/>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css"/>
+    </head>
+    <body>
+        <!--- main -->
+        <div class="header">
+            <p><a href=index.html><- Home</a></p><br>
+            <h1>Formatting accessible web content on&nbspmbta.com</h1>
+            <p>Here's how I help project teams at the MBTA format their content accessibly for the web.</p>
+        </div>
+        <div class="standard">
+            <h2>Scannable paragraphs</h2>
+            <p id="heading">Live webpage: <a href="https://www.mbta.com/projects/accessible-technology" rel="noreferrer">Accessible Technology</a></p>
+            <p>This webpage tells riders about tech projects we're doing at the T to help make the system more accessible. My team first published it in 2022.</p>
+            <p>In November 2024, I updated info on the page to let riders know how the projects have progressed. With help and feedback from other content strategists on my team, I also reformatted the content to make this page more scannable and accessible.</p>
+            <hr>
+            <p>Before, info about each project was behind an accordion. Here's a screenshot from the <a href="https://web.archive.org/" rel="noreferrer">Wayback Machine</a>:</p>
+            <img src="images/access-tech-before.webp">
+            <p>Now, info about each project is directly on the page, under an H3 header. Here's a screenshot from mbta.com in December 2024:</p>
+            <img src="images/acess-tech-now.webp">
+            <hr>
+            <p>This reformat works because some projects on the page have now been running long enough that they have dedicated webpages on mbta.com. We can shorten their descriptions here and focus on linking to those dedicated webpages, which:</p>
+            <ul>
+                <li>reduces repetition across the website, so we avoid confusing both riders and search engines</li>
+                <li>means there's less text to scroll through — one reason we can bring it out from the accordions</li>
+            </ul>
+            <p>Having the content out from behind accordions also helps with accessibility. It makes the content:</p>
+            <ul>
+                <li><b>Easier to scan.</b> Our H3s use bold, black type while the accordion headers are in thin, blue type. The project titles now have higher visual contrast and are larger on the screen.</li>
+                <li><b>Searchable.</b> You can only search for content in an accordion when it's expanded. Now, riders can more easily discover different terms or topics on the page.</li>
+            </ul>
+        </div>
+        <div class="standard">
+            <h2>Text-based project timeline</h2>
+            <p id="heading">Live webpage: <a href="https://www.mbta.com/projects/transit-oriented-development-alewife" rel="noreferrer">Transit-Oriented Development at Alewife</a></p>
+            <p>The project team I worked it originally considered embedding a graphic of their project's timeline on this webpage.</p>
+            <p>I worked with them to turn that graphic into a text-based timeline, formatted as a bulleted list, instead.</p>
+            <hr>
+            <p>Here's a screenshot of the project timeline from mbta.com in December 2024:</p>
+            <img src="images/alewife-timeline.webp">
+            <hr>
+            <p>Graphic images can be accessible to assistive tech like screen readers with alt text. But formatting this timeline so it's written directly in the page's HTML:</p>
+            <ul>
+                <li><b>Makes updating and maintenance easier.</b> It's faster to change HTML than to reupload an image, so there's less risk that riders will be looking at out-of-date info.</li>
+                <li><b>Makes the content searchable.</b> Riders can't search for specific timeline steps in a graphic.</li>
+                <li><b>Speeds up load time.</b> Images are what take longest to load on a relatively short webpage like this one.</li>
+            </ul>
+        </div>
+    </body>
+</html>
