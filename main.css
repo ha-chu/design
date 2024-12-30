@@ -200,13 +200,6 @@ img {
     padding: 0 0 16px 0;
 }
 
-@media screen and (max-width: 600px) {
-    img {
-        width: fit-content;
-        height: fit-content;
-    }
-}
-
 /* .text {
     width: fit-content;
     height: fit-content;
