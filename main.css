@@ -162,8 +162,9 @@ hr {
     margin-bottom: 0.8em;
     margin-left: auto;
     margin-right: auto;
-    border-style: inset;
-    border-width: 0.9px;
+    border-style: solid;
+    border-color: #757575;
+    border-width: 0.4px;
 }
 
 .header {
