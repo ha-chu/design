@@ -46,6 +46,7 @@ h2 {
 ul {
     font-size: 104%;
     font-family: 'Jetbrains Mono';
+    font-weight: 300;
     line-height: 1.6em;
     margin: 0 0 1.6em 0;
     color: #757575;
@@ -67,6 +68,7 @@ ul {
 ol {
     font-size: 104%;
     font-family: 'Jetbrains Mono';
+    font-weight: 300;
     line-height: 1.6em;
     margin: 0 0 1.6em 0;
     color: #757575;
@@ -91,6 +93,7 @@ li {
 p {
     font-size: 104%;
     font-family: 'Jetbrains Mono';
+    font-weight: 300;
     line-height: 1.6em;
     margin: 0 0 1.2em 0;
     color: #757575;
@@ -108,7 +111,7 @@ b {
 a {
     font-size: 100%;
     font-family: 'Jetbrains Mono';
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.6em;
     margin: 0 0 1.2em 0;
     color: #757575;
